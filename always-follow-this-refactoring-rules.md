@@ -1,6 +1,6 @@
-﻿## Compressed React + TypeScript Project Guidelines
+﻿## Refactor this @ React + TypeScript + TailwindCSS based on below instructions
 
-**1. Small, Focused Components:** Aim for <100 lines/component. Use Single Responsibility Principle (SRP). Example: Split dashboards into `Navbar`, `Sidebar`, `MainContent`, `Footer`. Build reusable UI components (buttons, cards).
+**1. Small, Focused Components:** Aim for <75 lines/component. Use Single Responsibility Principle (SRP). Example: Split dashboards into `Navbar`, `Sidebar`, `MainContent`, `Footer`. Build reusable UI components (buttons, cards).
 
 **2. Strong Typing (TypeScript):** Use interfaces/types for props & state. Avoid `any` (use `unknown` or specific types). Example:
    ```tsx
@@ -36,13 +36,3 @@ const Dashboard = () => (<div><header>Dashboard</header><nav>Menu</nav><main>Con
 **Refactored (Condensed):**
 - **Dashboard.tsx:** `import { Navbar, Sidebar, MainContent, Footer } from './components'; const Dashboard: React.FC = () => (<div><Navbar /><Sidebar /><MainContent /><Footer /></div>); export default Dashboard;`
 - Focused, reusable components in `/components`.
-
-**Key Changes Made for Compression:**
-
-* **Removed redundant phrases:**  Shortened explanations and titles.
-* **Combined similar ideas:**  Grouped related concepts where possible.
-* **Concise language:** Used stronger verbs and fewer words.
-* **Abbreviated examples:**  Showed essential code snippets without full explanations.
-* **Generalized explanations:** Focused on the "what" and "why" concisely.
-* **Streamlined formatting:** Used shorter sentences and bullet points.
-* **Focused on key takeaways:**  Eliminated less critical supporting information.
