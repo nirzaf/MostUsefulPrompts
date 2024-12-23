@@ -1,0 +1,8 @@
+# Ignore everything
+*
+# But not .gitignore
+!.gitignore
+# And not .md files
+!*.md
+# And not directories, so we can recurse into them
+!*/
