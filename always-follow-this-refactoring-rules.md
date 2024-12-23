@@ -16,11 +16,11 @@
 
 **6. TailwindCSS for Styling:** Use utility classes for styling instead of scoped styles or CSS libraries. Example: `<button className="bg-blue-500 ...">`.
 
-**7. Enforce Code Quality:**  Use ESLint & Prettier with TypeScript support and relevant plugins (e.g., `eslint-plugin-react`).
+**7. Enforce Code Quality:** Use ESLint & Prettier with TypeScript support and relevant plugins (e.g., `eslint-plugin-react`).
 
 **8. Thorough Component Testing:** Unit test with Jest & React Testing Library. Focus on props, events, and accessibility.
 
-**9. Component Documentation:**  Document visually with Storybook and add comments for complex logic.
+**9. Component Documentation:** Document visually with Storybook and add comments for complex logic.
 
 **10. Performance Optimization:** Use `React.memo`, lazy loading (`React.lazy`, `Suspense`), and minimize re-renders by splitting state or managing it higher up when needed. Prioritize UX/accessibility.
 
