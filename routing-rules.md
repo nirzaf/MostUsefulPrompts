@@ -1,4 +1,5 @@
-﻿# Handling Routing in Single-Page Applications with React Router
+﻿Update the routing rules of this React Static Web Application Beased in below rules
+# Handling Routing in Single-Page Applications with React Router
 
 To avoid server-side configuration issues with React Router in single-page applications, consider these approaches:
 
