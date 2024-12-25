@@ -1,4 +1,6 @@
-﻿## Refactor this @ React + TypeScript + TailwindCSS based on below instructions
+﻿Update this project to follow the below rules
+
+## Refactor this @ React + TypeScript + TailwindCSS based on below instructions
 
 **1. Small, Focused Components:** Aim for <75 lines/component. Use Single Responsibility Principle (SRP). Example: Split dashboards into `Navbar`, `Sidebar`, `MainContent`, `Footer`. Build reusable UI components (buttons, cards).
 
